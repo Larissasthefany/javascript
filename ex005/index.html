@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Javascript</title>
+</head>
+<body>
+    <div class="wrapper">
+        <form action="" name="formulario" id="formulario" autocomplete="on" method="post">
+            <legend>Formulário</legend>
+            <div class="input-group">
+                <label for="inome">Nome :</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome completo" minlength="9" maxlength="40" required>
+            </div>
+            <div class="input-group">
+                <label for="inasc">Data de Nascimento :</label>
+                <input type="date" name="nasc" id="nome" required>
+            </div>
+            <div class="input-group">
+                <label for="imedi">Média :</label>
+                <input type="number" name="medi" id="medi" placeholder="0 a 10" min="0" max="10" step="0.1" required>
+            </div>
+            <duv class="input-group">
+                <label for="ihora">Hora da Prova :</label>
+                <input type="time" name="hora" id="hora" required>
+            </duv>
+            <div class="input-group">
+                <label for="imes">Período Letivo:</label>
+                <input type="month" name="mes" id="mes" required>
+            </div>
+            <div class="input-group">
+                <label for="idia">Dia da Prova:</label>
+                <input type="date" name="dia" id="dia" required>
+            </div>
+            <div class="footer">
+                <button type="button" class="botao" onclick="validar()">Enviar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

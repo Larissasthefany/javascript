@@ -1,0 +1,85 @@
+*{
+    margin: auto;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgba(95, 56, 95, 0.479);
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    height: 100%;
+    margin: 0px;
+    margin-top: 70px;
+}
+
+#formulario{
+    width: 300px;
+    min-height: 400px;
+    background-color: rgba(170, 113, 170, 0.651);
+    border-radius:9px ;
+    padding: 20px 30px;
+}
+
+#formulario legend {
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 22px;
+}
+
+input{
+    box-sizing: border-box;
+    outline: none;
+}
+
+.input-group {
+    margin: 10px 0;
+}
+
+.input-group input:not([type="checkbox"]) {
+    background: #dedddd;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    padding: 8px 10px;
+    display: block;
+    width: 100%;
+}
+
+.input-group input:focus {
+    border-color: #20b2aa;
+}
+
+.input-group input::placeholder {
+    color: #686868;
+    font-weight: 300;
+}
+
+label{
+    color: white;
+    font-size: 18px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.botao {
+    background: #73a4dc;
+    border-radius: 2px;
+    padding: 10px 15px;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+  .botao:hover {
+    background: #5988bd;
+}
+  
