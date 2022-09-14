@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript</title>
+</head>
+<body>
+    <h1>Teste</h1>
+    <main>
+        <legend>Cadastro</legend>
+        <form id="cadastro" action="cadastro.php" method="post">
+            <div>
+                <label for="name">Nome:</label>
+                <input type="text" id="user" name="name" placeholder="Seu nome" required>
+            </div>
+
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="password" required>
+            </div>
+
+            <div class="buttom">
+                <input type="submit" value="Enviar" id="btn" onclick="javascript: btn_click()" name="go">
+            </div>
+        </form>
+    </main>
+</body>
+</html>
