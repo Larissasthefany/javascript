@@ -1,4 +1,7 @@
-var nome = prompt("Nome do funcionario?");
-var sal = prompt("Valor do salário");
+var nome = prompt("Nome do funcionario?")
+var atual = Number(prompt("Valor do Salário"))
 
-alert("O funcionário " + nome + " Tem um salário de R$" +sal + " este mês")
+//com R$
+var f = atual.toLocaleString('pt-br',{style: 'currency', currency: 'BRL'});
+
+alert(`O funcionario ${nome} recebe um salário de ${f}  ao mês`)
