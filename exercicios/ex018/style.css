@@ -1,0 +1,9 @@
+
+    table tr td {
+    padding: 5px;
+}
+table tr td.dir {
+    padding-right: 15px;
+    text-align: right;
+    width: 120px;
+}

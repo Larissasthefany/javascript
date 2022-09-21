@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p>Calcular valor do desconto:</p>
+<table cellpadding="0" cellspacing="0" border="0">
+    <tr>
+      <td class="dir">campo 1:</td>
+      <td><input type="text" name="valor1" id="valor1" value="550.25" /></td>
+    </tr>
+    <tr>	
+      <td class="dir">desconto %:</td>
+      <td><input type="text" name="desconto1" id="desconto1" onblur="calcValor()" /></td>
+    </tr>
+    <tr>
+      <td class="dir">desconto R$:</td>
+      <td><input type="text" name="desconto2" id="desconto2" onblur="calcValor()" /></td>
+    </tr>
+    <tr>
+      <td class="dir">valor total:</td><td><input type="text" name="total" id="total" value="0.00" /></td>
+    <tr>            
+</table>                  
+</body>
+</html>
